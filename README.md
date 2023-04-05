@@ -45,3 +45,10 @@ Create two new variables, `cheapest_driver` and `cheapest_driver_price`. Set the
 **12.** First, calculate the `driver_time` for each driver by dividing `distance` by `driver.speed`.
 
 **13.** Next calculate the `price_for_driver` by multiplying `driver.salary` by `driver_time`.
+
+**14.** Now we want to check if the current `driver` is the cheapest driver we’ve looked at.
+
+First, we’ll check if `cheapest_driver` is `None`, this likely means this is the first driver we’ve looked at.
+
+In that case, set `cheapest_driver` equal to `driver` and then set `cheapest_driver_price` equal to `price_for_driver`.
+
