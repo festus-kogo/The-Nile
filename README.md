@@ -22,3 +22,4 @@ There’s other ways to separate those two coordinates when calling this functio
 
 **5.** Calculate the `price` by multiplying the `distance` by the `shipping_rate`.
 
+**6.** Finally, return the formatted `price`, created by calling the provided `format_price()` on the price itself.
