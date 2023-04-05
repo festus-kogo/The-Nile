@@ -52,3 +52,8 @@ First, we’ll check if `cheapest_driver` is `None`, this likely means this is t
 
 In that case, set `cheapest_driver` equal to `driver` and then set `cheapest_driver_price` equal to `price_for_driver`.
 
+**15.** In an `elif` statment, check if `price_for_driver` is less than `cheapest_driver_price`. This means that our current driver is cheaper than the driver stored in `cheapest_driver`.
+
+Update `cheapest_driver` to be equal to `driver` and update `cheapest_driver_price` to be equal to `price_for_driver`.
+
+**16.** After outdenting out of our `elif` statement and the `for` loop, return `cheapest_driver_price` and `cheapest_driver`.
