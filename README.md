@@ -27,3 +27,11 @@ There’s other ways to separate those two coordinates when calling this functio
 **7.** What about our shoppers who hastily purchase goods without indicating their shipping type? Let’s give our function a default argument for `shipping_type`. Since they’re in such a hurry let’s make the default argument `'Overnight'`. They’ll be happier to get what they ordered earlier, and we’ll be happier because they paid more money for it. It’s a win-win!
 
 **8.** Want to make sure you wrote the function correctly? Try calling `test_function(calculate_shipping_cost)` after your function definition.
+
+### Careers At The Nile
+
+**9.** At The Nile, we have a joke. Without our fantastic drivers, who fulfill orders every day, we’d just be sitting with millions of toys, electronics, and clothing in warehouses to ourselves.
+
+Our team is important, and we want to make sure the hardest workers find their home in our careers. In order to do that, we need to figure out who the best person is for each job.
+
+Write a function called `calculate_driver_cost()` with `distance` as the first parameter, and as many drivers as are available as positional arguments after that, as `drivers`.
