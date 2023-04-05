@@ -35,3 +35,7 @@ There’s other ways to separate those two coordinates when calling this functio
 Our team is important, and we want to make sure the hardest workers find their home in our careers. In order to do that, we need to figure out who the best person is for each job.
 
 Write a function called `calculate_driver_cost()` with `distance` as the first parameter, and as many drivers as are available as positional arguments after that, as `drivers`.
+
+**10.** In order to find the best person, we need to calculate how much it would cost for any of the drivers to fulfill this order.
+
+Create two new variables, `cheapest_driver` and `cheapest_driver_price`. Set them both to `None`.
