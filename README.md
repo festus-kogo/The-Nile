@@ -41,3 +41,7 @@ Write a function called `calculate_driver_cost()` with `distance` as the first p
 Create two new variables, `cheapest_driver` and `cheapest_driver_price`. Set them both to `None`.
 
 **11.** Now let’s iterate over every `driver` in `drivers`. Use a `for` loop.
+
+**12.** First, calculate the `driver_time` for each driver by dividing `distance` by `driver.speed`.
+
+**13.** Next calculate the `price_for_driver` by multiplying `driver.salary` by `driver_time`.
