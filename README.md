@@ -39,3 +39,5 @@ Write a function called `calculate_driver_cost()` with `distance` as the first p
 **10.** In order to find the best person, we need to calculate how much it would cost for any of the drivers to fulfill this order.
 
 Create two new variables, `cheapest_driver` and `cheapest_driver_price`. Set them both to `None`.
+
+11. Now let’s iterate over every `driver` in `drivers`. Use a `for` loop.
