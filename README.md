@@ -17,3 +17,5 @@ Inside `calculate_shipping_cost` unpack those tuples into `from_lat`, `from_long
 **3.** Now call `get_distance(from_lat, from_long, to_lat, to_long)` and save the result as `distance`.
 
 There’s other ways to separate those two coordinates when calling this function, how would you have done it?
+
+4. Next, get the `shipping_rate` by using the provided `SHIPPING_PRICES` dictionary and fetching the key passed in as `shipping_type`.
