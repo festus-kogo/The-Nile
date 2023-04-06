@@ -73,3 +73,5 @@ This function will be passed a number of Trip IDs with corresponding trip inform
 **21.** Add up that sweet revenue by incrementing `total_money_made` by `trip_revenue`.
 
 **22.** Outside your for loop, return the total!
+
+**23.** Congratulations! You’ve been a real life-saver around these parts. We broke up functions using arbitrary and default parameters! Remember you can test your function by calling `test_function(calculate_money_made)` afterwards!
