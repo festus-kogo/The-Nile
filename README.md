@@ -71,3 +71,5 @@ This function will be passed a number of Trip IDs with corresponding trip inform
 **20.** Calculate the trip revenue into the variable `trip_revenue` by calculating `trip.cost` minus `trip.driver.cost`.
 
 **21.** Add up that sweet revenue by incrementing `total_money_made` by `trip_revenue`.
+
+**22.** Outside your for loop, return the total!
