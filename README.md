@@ -57,3 +57,11 @@ In that case, set `cheapest_driver` equal to `driver` and then set `cheapest_dri
 Update `cheapest_driver` to be equal to `driver` and update `cheapest_driver_price` to be equal to `price_for_driver`.
 
 **16.** After outdenting out of our `elif` statement and the `for` loop, return `cheapest_driver_price` and `cheapest_driver`.
+
+### The Nile Exclusive
+
+**17.** Great first day, friend! Let’s try and figure out all the money you’ve saved us today.
+
+Let’s define a function called `calculate_money_made()`.
+
+This function will be passed a number of Trip IDs with corresponding trip information as arguments, so let’s just take any keyword arguments passed into it. Store them all as `trips`!
