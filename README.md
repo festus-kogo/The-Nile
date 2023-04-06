@@ -68,3 +68,5 @@ This function will be passed a number of Trip IDs with corresponding trip inform
 
 **19.** Iterate through every trip_id and trip in the `trips` dictionary.
 
+**20.** Calculate the trip revenue into the variable `trip_revenue` by calculating `trip.cost` minus `trip.driver.cost`.
+
