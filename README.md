@@ -65,3 +65,6 @@ Update `cheapest_driver` to be equal to `driver` and update `cheapest_driver_pri
 Let’s define a function called `calculate_money_made()`.
 
 This function will be passed a number of Trip IDs with corresponding trip information as arguments, so let’s just take any keyword arguments passed into it. Store them all as `trips`!
+
+**19.** Iterate through every trip_id and trip in the `trips` dictionary.
+
